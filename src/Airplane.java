@@ -8,7 +8,11 @@ public class Airplane {
         landed = false;
     }
 
-    public void landed() {
+    public void land() {
         landed = true;
+    }
+
+    public boolean hasLanded() {
+        return landed;
     }
 }
